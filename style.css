@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Sedan:ital@0;1&display=swap');
+
+* {
+  font-family: "Platypi", serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.icones {
+  display: flex;
+  justify-content: center;
+}
+
+.icones  img {
+  width: 30px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.icones img:hover {
+  transform: scale(1.5);
+}
+
+.logos {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logos img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+
+a {
+  display: flex;
+  align-items: center;
+  color: purple;
+}
+
+c{
+    color: orange;
+}
+
+h1, h4{
+    text-align: center;    
+}
